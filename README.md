@@ -37,7 +37,19 @@
 - **Docker Network**
   
 - **Docker Compose**
-  
+  Follow Step in documetation link: *[Try Compose](https://docs.docker.com/compose/gettingstarted/)*
+  - *<p style="color: wheat">Command for **start** compose creating containers with detach mode</p>*
+    ```
+    docker compose up -d
+    ```
+  - *<p style="color: wheat">Command for **stop** compose containers</p>*
+    ```
+    docker compose down
+    ```
+  - *<p style="color: wheat">Command for **editing** compose some containers with detach mode by re-create only the container has edited</p>*
+    ```
+    docker compose up -d --build
+    ```
 - **Portainer.io**
 
   - *<p style="color: wheat">Script for build & run portainer on your services</p>*
