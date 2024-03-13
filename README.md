@@ -28,7 +28,23 @@
     3. [Nginx:20-Alpine](https://hub.docker.com/_/nginx/tags?page=1&name=alpine)
   
 - **Dockerfile**
-  
+  - Using `docker-react-app` folder for create Dockerfile<br/>
+  *Follow Step*<br/>
+  1. change directory into docker-react-app & create Dockerfile
+    ```
+    cd docker-react-app
+    touch Dockerfile
+    ```
+  2. create syntax on Dockerfile for build image
+
+  3. command for create container image from Dockerfile
+    ```
+    docker build -t [IMAGE_NAME] .
+    ```
+  4. command for build container from your image have just created by expose from port `3000 on container` to `3001 on host`
+    ```
+    docker run -d -p 3001:3000 --name [IMAGE_NAME] [CONTAINER_NAME]
+    ```
 - **Docker Registry**
   - Website Store Container Image for pulling & pushing with container repository: *[Docker Hub](https://hub.docker.com/)*
   
