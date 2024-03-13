@@ -49,6 +49,11 @@
   - Website Store Container Image for pulling & pushing with container repository: *[Docker Hub](https://hub.docker.com/)*
   
 - ### **Docker Volume**
+  - Using `nginx-astro-deploy` folder with your command for create volume mapping with directory `/usr/share/nginx/html` in the container that will show your astro build website from your folder you can edit any that on your folder `nginx-astro-deploy` your revised will effects to file inside container too.<br/>
+  Following Command Instruction:
+  ```
+  docker run -d -p 8080:80 -v [PATH_YOUR_FOLDER]:[PATH_IN_CONTAINER] nginx:1.25-alpine
+  ```
   
 - ### **Docker Network**
   
