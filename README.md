@@ -6,7 +6,7 @@
 
 ## Contents on this course including on this:
 ### Material content on training update with these section
-- **What's Docker?**
+- ### **What's Docker?**
   - Container Platform Interfaces
     1. [Docker](https://www.docker.com/)
     2. [Podman](https://podman.io/)
@@ -18,16 +18,16 @@
   - More Information
     - รู้จัก Docker ใน 3 นาที [<img width="20" height="20" src="https://img.icons8.com/matisse/100/youtube.png" alt="youtube"/>](https://www.youtube.com/watch?v=nDIWwvy07uQ&t=14s)
     - docker จำเป็นจริงๆมั้ย [<img width="20" height="20" src="https://img.icons8.com/matisse/100/youtube.png" alt="youtube"/>](https://www.youtube.com/watch?v=rtqYzg6oJPw&t=380s)
-- **Docker Components**
+- ### **Docker Components**
   
-- **Basic Docker Commands**
+- ### **Basic Docker Commands**
   - Practices Docker commands by yourself with playground: *[Docker Playground](https://labs.play-with-docker.com)*
   - <u>Exercise Info</u><br/>For more information about container image<br/>
     1. [Hello-World](https://hub.docker.com/_/hello-world)
     2. [Geeting-Started](https://hub.docker.com/r/docker/getting-started)
     3. [Nginx:20-Alpine](https://hub.docker.com/_/nginx/tags?page=1&name=alpine)
   
-- **Dockerfile**
+- ### **Dockerfile**
   - Using `docker-react-app` folder for create Dockerfile<br/>
   *Follow Step*<br/>
   1. change directory into docker-react-app & create Dockerfile
@@ -45,14 +45,14 @@
     ```
     docker run -d -p 3001:3000 --name [IMAGE_NAME] [CONTAINER_NAME]
     ```
-- **Docker Registry**
+- ### **Docker Registry**
   - Website Store Container Image for pulling & pushing with container repository: *[Docker Hub](https://hub.docker.com/)*
   
-- **Docker Volume**
+- ### **Docker Volume**
   
-- **Docker Network**
+- ### **Docker Network**
   
-- **Docker Compose**
+- ### **Docker Compose**
   Follow Step in documetation link: *[Try Compose](https://docs.docker.com/compose/gettingstarted/)*
   - *<p style="color: wheat">Command for **start** compose creating containers with detach mode</p>*
     ```
@@ -66,7 +66,7 @@
     ```
     docker compose up -d --build
     ```
-- **Portainer.io**
+- ### **Portainer.io**
 
   - *<p style="color: wheat">Script for build & run portainer on your services</p>*
   ```
