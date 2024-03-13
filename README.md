@@ -1,4 +1,4 @@
-<img width="24" height="24" src="https://img.icons8.com/external-those-icons-flat-those-icons/24/external-Docker-Logo-social-media-those-icons-flat-those-icons.png" alt="external-Docker-Logo-social-media-those-icons-flat-those-icons"/><h1>container-implement-course</h1>
+<h1><img width="40" height="40" src="https://img.icons8.com/external-those-icons-flat-those-icons/24/external-Docker-Logo-social-media-those-icons-flat-those-icons.png" alt="external-Docker-Logo-social-media-those-icons-flat-those-icons"/>container-implement-course</h1>
 
 ## Welcome to Container Implementation (Docker) Course
 
