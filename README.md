@@ -2,7 +2,7 @@
 
 ## Welcome to Container Implementation (Docker) Course
 
-**this is Google Drive Folder:** *[link to slide](https://www.google.com)*
+**this is Google Drive Folder:** *[link to slide](https://drive.google.com/drive/folders/1UBNo3W0Z-G9RMRjdCS4JUkYLlpjXJSAP?usp=sharing)*
 
 ## Contents on this course including on this:
 ### Material content on training update with these section
