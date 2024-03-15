@@ -9,7 +9,6 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <h1>Worawut Boonwong</h1>
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -18,6 +17,8 @@ function App() {
         >
           Learn React
         </a>
+        <h1>My App is starting on React app</h1>
+        <p>produced by Worawut Boonwong</p>
       </header>
     </div>
   );
